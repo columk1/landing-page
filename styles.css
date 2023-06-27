@@ -1,0 +1,203 @@
+:root {
+    --primary-dark: #1F2937;
+    --secondary-dark: #354056;
+    --primary-light: #F9FAF8;
+    --secondary-light: rgb(229, 231, 235, 0.8);
+    --accent: #3882F6;
+}
+  
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 0.2em 14vw 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+}
+
+nav {
+    color: var(--secondary-light);
+    font-size: 1.2em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 1em;
+}
+
+#hero {
+    height: 60vh;
+    padding: 0.5em 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-dark);
+    color: var(--primary-light); 
+}
+
+.hero-content {
+    flex: 1 1 0;
+    width: 0;
+    height: 50%;
+    margin-bottom: 2em;
+}
+
+.hero-content h1 {
+    font-size: 3.3em;
+}
+
+.hero-content p {
+    width: 82%;
+    font-size: 1.2em;
+    color: var(--secondary-light);
+}
+
+#hero-img {
+    flex: 1 1 0;
+    width: 0;
+    height: 50%;
+    margin-bottom: 2em;
+    background-color: rgba(190, 190, 190, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 0.7em 0;
+    color: var(--primary-light);
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.5em 1.8em;
+    background-color: var(--accent);
+    border: none;
+    border-radius: 0.5em;
+}
+
+#features {
+    height: 50vh;
+    padding: 2.8em 14vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features h2 {
+    font-size: 2.4em;
+    font-weight: 800;
+}
+
+#features-gallery {
+    width: 80%;
+    margin-top: 3.1em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3em;
+    color: #666;
+}
+
+.feature-img {
+    display: block;
+    width: 12em;
+}
+
+#features img {
+    width: 11em;
+    height: 11em;
+    border-radius: 1em;
+    border: 0.3em solid var(--accent);
+}
+
+#features p {
+    margin: 0 0.2em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#quote {
+    height: 50vh;
+    padding: 2.8em 24vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--secondary-light);
+}
+
+#quote h3 {
+    font-size: 2.4em;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#quote label {
+    text-align: right;
+    padding: 0 2em;
+    color: var(--primary-dark);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+#call-to-action {
+    height: 40vh;
+    padding: 2.8em 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-light);
+}
+
+#form {
+    width: 70vw;
+    height: 20vh;
+    padding: 0 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--accent);
+    border-radius: 0.7em;
+}
+
+#form h3 {
+    font-size: 1.6em;
+}
+
+#form p {
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+#call-to-action button {
+    border: 0.16em solid white;
+}
+
+footer {
+    padding: 2em 0;
+    background-color: var(--primary-dark);
+    text-align: center;
+    color: var(--primary-light);
+    font-size: 1.4em;
+}
