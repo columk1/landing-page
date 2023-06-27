@@ -9,4 +9,4 @@ An image of a landing page is provided and the task is to create something that 
 
 ### Finished project
 
-![Landing Page](odin-landing-page.png)
+![Landing Page](odin-landing-page-screen.png)
